@@ -34,3 +34,5 @@ mult = 3
 for num in range(lowNum, highNum+1):
     if num % mult ==0:
         print(num)
+        
+        
