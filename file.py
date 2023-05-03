@@ -2,10 +2,12 @@
 for i in range(151):
     print(i)
 
+    
 # 2. Multiples of Five - Print all the multiples of 5 from 5 to 1,000
 for i in range(5,1001,5):
     print(i)
 
+    
 # 3. Counting, the Dojo Way - Print integers 1 to 100. If divisible by 5, print "Coding" instead. If divisible by 10, print "Coding Dojo".
 for i in range(1,101):
     if i % 10 ==0:
