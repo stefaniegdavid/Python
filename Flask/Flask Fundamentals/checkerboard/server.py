@@ -23,6 +23,5 @@ def row_col_two(x,y,one,two):
     return render_template("index.html",row=x,col=y,color_one=one,color_two=two)
 
 
-
 if __name__=="__main__":
     app.run(debug=True)
