@@ -1,1 +1,1 @@
-This is my Flask Folder
+Folder for Flask assignments
