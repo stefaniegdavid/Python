@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+
+<body>
+    <h2>Counter</h2>
+    <p>You have visited the site: {{ session['add_num'] }}</p>
+    <div class="buttons">
+        <a href="/" class="btn btn-primary">Click</a>
+        <form action="/reset" method="post">
+            <input type="submit" value="Reset" class="btn btn-primary" name="reset">
+        </form>
+        <form action="/plus_two" method="post">
+            <input type="submit" value="Add Two" class="btn btn-primary" name="add_two">
+        </form>
+
+    </div>
+
+</body>
+
+</html>

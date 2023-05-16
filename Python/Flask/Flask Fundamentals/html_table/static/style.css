@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 0px;
+    text-align: center;
+}
+
+.table {
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgb(209, 188, 250);
+}
